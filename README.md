@@ -1,18 +1,15 @@
-# Wellness Cafe SAPRO Website Prototype v2
+# Wellness Cafe SAPRO Web Prototype v4
 
-## Open
-Open `index.html` in a modern browser.
+## Main updates
+- SAPRO's core offer is now a custom-made smoothie, not the 11 recommended drinks.
+- The 11 drinks are labeled as staff original recommendations.
+- Header logo is displayed without cropping on desktop and mobile.
+- Staff recommendations use a horizontal swipe/drag carousel on all screen sizes.
+- The supplied promotional messages are placed prominently in the hero and custom sections.
+- Store information uses a spacious reference-style layout; unconfirmed details remain marked as coming soon.
+- Kuppa hidden coupon event is retained.
 
-## v2 readability changes
-- Replaced the horizontal menu carousel with a responsive grid.
-- Product cards now show name, description, representative ingredients, tags, and calories without clipping.
-- Mobile layout uses one full-width card per row.
-- Menu photos were re-cropped from the supplied materials so recipe text and quantities are not exposed.
-- Improved mobile heading sizes and product detail dialog scrolling.
-
-## Kuppa demo
-- Add `?demo=1` to the URL to make Kuppa appear after about 5.5 seconds.
-- Press `K` on desktop to trigger Kuppa manually.
-
-## Placeholder information
-Address, opening hours, opening date, and social links remain placeholders.
+## Demo
+Open `index.html` in a browser.
+Add `?demo=1` to make Kuppa appear after about five seconds.
+Press `K` to summon Kuppa during QA.
