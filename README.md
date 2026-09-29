@@ -1,15 +1,14 @@
-# Wellness Cafe SAPRO Web Prototype v4
+# WELLNESS CAFE SAPRO
 
-## Main updates
-- SAPRO's core offer is now a custom-made smoothie, not the 11 recommended drinks.
-- The 11 drinks are labeled as staff original recommendations.
-- Header logo is displayed without cropping on desktop and mobile.
-- Staff recommendations use a horizontal swipe/drag carousel on all screen sizes.
-- The supplied promotional messages are placed prominently in the hero and custom sections.
-- Store information uses a spacious reference-style layout; unconfirmed details remain marked as coming soon.
-- Kuppa hidden coupon event is retained.
+原宿神宮前店の静的ウェブサイトです。`index.html` を開くだけで表示できます。
 
-## Demo
-Open `index.html` in a browser.
-Add `?demo=1` to make Kuppa appear after about five seconds.
-Press `K` to summon Kuppa during QA.
+## 構成
+
+- `index.html` — 店舗、カスタム、12種類のスムージー、フード、予約と注文の案内
+- `styles.css` — PC／スマートフォンのレイアウト
+- `script.js` — メニューとクッパ君のクーポン
+- `assets/` — 正式ロゴ、商品画像、テラス写真、クッパ君の動画
+
+店舗案内・メニューの更新時は、公式サイトと店舗の食べログ掲載内容を確認してください。2026年9月29日共有のメニュー画像15枚を掲載しています。デリバリーは提供された短縮URLから店舗の注文ページへ転送します。
+
+クーポン確認用: `index.html?demo=1` を開き、5秒待つか `K` キーを押すとクッパ君を表示できます。クーポンの獲得・使用状態は同じブラウザ内に保存します。
